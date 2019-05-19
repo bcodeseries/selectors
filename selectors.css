@@ -1,0 +1,52 @@
+/*Type Selector - selecting an element */
+<p> Lorem ipsum> </p>
+
+p {
+  color: red
+}
+
+/* Class Selector - selecting with elements with matching class attribute
+ (nb. key to remember the dot before the selector)
+*/
+<p class="blue"> Hello </p>
+
+.blue {
+ color: blue
+}
+
+/* Applying two classes */
+
+<p class="blue alert"> Hello </p>
+
+.alert {
+ font-size: bold
+}
+/* ID Selector - Selects an element with a matching attribute name (only one to a page)
+(nb. proceeds a # symbol )*/
+
+<p id="unique"> Lorem ipsum </p>
+#unique {
+  font-weight: lighter;
+  text-align: center;
+}
+/* Compound Selector - Selects all matched elements in the compound set. The selector is
+indicated by a comma. */
+
+<h1>Heading</h1>
+<h2>Subheading</h2>
+<div id="box">I'm a box</div>
+
+h1, h2, #box {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Descendant Selector - Selects all matched elements in the compound set. The selector is
+indicated by a comma. */
+
+<ul id="nav">
+  <li>child</li>
+</ul>
+
+#nav li {
+  background: blue;
+}

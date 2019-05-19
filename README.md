@@ -1,3 +1,8 @@
-Selectors
+# CSS Selectors
 
-We will be running through the differet types of CSS Selectors
+Running through what type of CSS Selectors there are 
+
+## Types 
+
+- Type Selector 
+- 
